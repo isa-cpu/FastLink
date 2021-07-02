@@ -51,30 +51,71 @@ const Navbar = () => {
 			</div>
 			<div className={s.bottom_container}>
 				<div className={s.b_list}>
-					<p>mobie phones</p>
+					<p className={s.list_title}>mobie phones</p>
 					<IoIosArrowDown />
+					<div className={s.dropdown}>
+						<p>Apple</p>
+						<p>Bantel</p>
+						<p>Infinix</p>
+						<p>Samsung</p>
+					</div>
 				</div>
 				<div className={s.b_list}>
-					<p>laptop & desktop</p>
+					<p className={s.list_title}>laptop & desktop</p>
 					<IoIosArrowDown />
+					<div className={s.dropdown}>
+						<p>Apple</p>
+						<p>Bantel</p>
+						<p>Infinix</p>
+						<p>Samsung</p>
+						<p>HP</p>
+						<p>Desktops</p>
+						<p>Toshiba</p>
+						<p>Asus</p>
+						<p>Lenovo</p>
+					</div>
 				</div>
 
 				<div className={s.b_list}>
-					<p>Tvs & projectors</p>
+					<p className={s.list_title}>Tvs & projectors</p>
 					<IoIosArrowDown />
+					<div className={s.dropdown}>
+						<p>Apple</p>
+						<p>Bantel</p>
+						<p>Infinix</p>
+						<p>Samsung</p>
+					</div>
 				</div>
 
 				<div className={s.b_list}>
-					<p>assessories</p>
+					<p className={s.list_title}>assessories</p>
 					<IoIosArrowDown />
+					<div className={s.dropdown}>
+						<p>Apple</p>
+						<p>Bantel</p>
+						<p>Infinix</p>
+						<p>Samsung</p>
+					</div>
 				</div>
 				<div className={s.b_list}>
-					<p>printer</p>
+					<p className={s.list_title}>printer</p>
 					<IoIosArrowDown />
+					<div className={s.dropdown}>
+						<p>Apple</p>
+						<p>Bantel</p>
+						<p>Infinix</p>
+						<p>Samsung</p>
+					</div>
 				</div>
 				<div className={s.b_list}>
-					<p>speaker</p>
+					<p className={s.list_title}>speaker</p>
 					<IoIosArrowDown />
+					<div className={s.dropdown}>
+						<p>Apple</p>
+						<p>Bantel</p>
+						<p>Infinix</p>
+						<p>Samsung</p>
+					</div>
 				</div>
 			</div>
 		</div>

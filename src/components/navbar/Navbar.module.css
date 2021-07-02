@@ -154,6 +154,8 @@
     gap: 3px;
     cursor: pointer;
     color: #fff;
+    position: relative;
+    height: 100%;
 }
 
 .b_list>p {
@@ -163,6 +165,52 @@
     transition: all 300ms ease-in-out;
 }
 
-.b_list:hover {
+.b_list>p:hover {
     color: orange;
+}
+
+.dropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2vh;
+    top: 6.5vh;
+    left: 0;
+    width: 210px;
+    background-color: #333E48;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    transition: all 600ms ease-out;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.dropdown>p {
+    padding-left: 30px;
+}
+
+.b_list:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+    animation: fade 400ms ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    99% {
+
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
 }
