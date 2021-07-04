@@ -1,7 +1,7 @@
 .navbar {
     height: 45vh;
     background: #00AF66;
-    width: 100%;
+    width: initial;
     margin: 0;
 }
 
@@ -178,18 +178,25 @@
     gap: 2vh;
     top: 6.5vh;
     left: 0;
-    width: 210px;
+    width: 200px;
     background-color: #333E48;
     padding-top: 4vh;
     padding-bottom: 4vh;
     transition: all 600ms ease-out;
     visibility: hidden;
     opacity: 0;
+    z-index: 999;
+}
 
+.b_list:last-child .dropdown {
+    width: 200px;
+    left: -130px;
+    align-items: flex-end;
 }
 
 .dropdown>p {
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .b_list:hover .dropdown {
